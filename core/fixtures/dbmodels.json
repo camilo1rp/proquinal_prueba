@@ -1,0 +1,577 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-06-22T17:37:04.505Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "beautyholics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-06-22T17:37:17.442Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "bloqueador solar",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"price\", \"object\": \"Precio de bloqueador solar para la tienda beautyholics: 20000\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-06-22T17:43:56.884Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "crema de manos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"price\", \"object\": \"Precio de crema de manos para la tienda beautyholics: 8000\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-06-22T19:54:42.955Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "tennis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-06-22T20:12:40.566Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "camisa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"price\", \"object\": \"Precio de camisa para la tienda tennis: 76000\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-06-22T20:12:58.223Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "bloqueador solar",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"price\", \"object\": \"Precio de bloqueador solar para la tienda tennis: 22000\"}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add price",
+    "content_type": 7,
+    "codename": "add_price"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change price",
+    "content_type": 7,
+    "codename": "change_price"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete price",
+    "content_type": 7,
+    "codename": "delete_price"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view price",
+    "content_type": 7,
+    "codename": "view_price"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Producto",
+    "content_type": 8,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Producto",
+    "content_type": 8,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Producto",
+    "content_type": 8,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Producto",
+    "content_type": 8,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tienda",
+    "content_type": 9,
+    "codename": "add_store"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tienda",
+    "content_type": 9,
+    "codename": "change_store"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tienda",
+    "content_type": 9,
+    "codename": "delete_store"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tienda",
+    "content_type": 9,
+    "codename": "view_store"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$MYDSRUS8kYtTLVDYUGHqy1$Ht+MIB7t4e0P9UIMU3hgJi+HFO/nXHIik8AFvSPiJU8=",
+    "last_login": "2021-06-22T17:36:49.203Z",
+    "is_superuser": true,
+    "username": "cam",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-06-22T16:06:04.800Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "price"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "store"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qw0gbgf9m3wpd9i3t4rvp93z62bkpd27",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSGM-W3K9D4DWlgITiKQjF1FuXtsyUXSvpl5b-ZxW4vfelr8TOzKBnb53QLGZ6oHoAfWe-Ox1XWZAz8UftLOp0bpdTvdv4OCvey108pCQk3RGglJSyQBMgQaR5OzdGiEkRaEdjiobHNUBLsNFKI2ljL7fAHcfDgf:1lvkKP:dLZBAs_LhXjWdslfdIYN3c_UzxYZ0MoewLg0rdW9LFs",
+    "expire_date": "2021-07-06T17:36:49.219Z"
+  }
+},
+{
+  "model": "core.store",
+  "pk": 1,
+  "fields": {
+    "name": "beautyholics",
+    "address": "calle 12 # 20 -10",
+    "active": true
+  }
+},
+{
+  "model": "core.store",
+  "pk": 2,
+  "fields": {
+    "name": "tennis",
+    "address": "calle 30 # 21",
+    "active": true
+  }
+},
+{
+  "model": "core.product",
+  "pk": 1,
+  "fields": {
+    "name": "bloqueador solar"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 2,
+  "fields": {
+    "name": "crema de manos"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 3,
+  "fields": {
+    "name": "camisa"
+  }
+},
+{
+  "model": "core.price",
+  "pk": 1,
+  "fields": {
+    "store": 1,
+    "product": 1,
+    "price": "20000.00"
+  }
+},
+{
+  "model": "core.price",
+  "pk": 2,
+  "fields": {
+    "store": 1,
+    "product": 2,
+    "price": "8000.00"
+  }
+},
+{
+  "model": "core.price",
+  "pk": 3,
+  "fields": {
+    "store": 2,
+    "product": 3,
+    "price": "76000.00"
+  }
+},
+{
+  "model": "core.price",
+  "pk": 4,
+  "fields": {
+    "store": 2,
+    "product": 1,
+    "price": "22000.00"
+  }
+}
+]
