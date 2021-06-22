@@ -1,10 +1,10 @@
-# This is a test for proquinal
+# Test for proquinal
 
 # Description
 
 - App to administrate stores and related products with different prices
 
-# API USE
+# API use
 - List Stores 
    * This API displays all active stores with their products and prices
    * url:/api/store/store-list/
@@ -14,7 +14,7 @@
    * url:/api/store/product-list/
   
 # Database
-- The database is located in: tienda/core/fixture
+- The database data is located in: tienda/core/fixtures
   * To load the database use:  
     - python manage.py loaddata dbmodels.json
 
