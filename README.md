@@ -18,4 +18,8 @@
   * To load the database use:  
     - python manage.py loaddata dbmodels.json
 
+# Access
+- for the given database de credentials are:
+  * user: cam
+  * password: cam
     
