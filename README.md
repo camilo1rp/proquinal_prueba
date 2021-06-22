@@ -12,4 +12,10 @@
 - List Products 
    * This API displays all products on all stores
    * url:/api/store/product-list/
+  
+# Database
+- The database is located in: tienda/core/fixture
+  * To load the database use:  
+    - python manage.py loaddata dbmodels.json
+
     
