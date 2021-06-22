@@ -3,9 +3,13 @@ from django.db import models
 
 class Store(models.Model):
     """Model for store"""
+    ACTIVE_CHOICES = ((True, 'Activo'), (False, 'Inactivo'))
+
     name = models.CharField(max_length=127, verbose_name="Nombre de la tienda")
     address = models.CharField(max_length=255, verbose_name="Dirección")
-    active = models.BooleanField(default=False, verbose_name="Activo")
+    active = models.BooleanField(default=False,
+                                 verbose_name="Activo",
+                                 choices=ACTIVE_CHOICES)
     products = models.ManyToManyField('Product',
                                       through='price',
                                       related_name='stores')
